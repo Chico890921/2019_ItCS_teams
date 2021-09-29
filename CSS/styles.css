@@ -1,0 +1,226 @@
+body,h1,h2,h3 {
+    font-family: Arial, "Microsoft JhengHei";
+}
+div {
+    height: 100px;
+    width: 130px;
+}
+div.left {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 250px;
+    top:200px;
+    font-size: 25px;
+}
+h1 {
+    height: 6%;
+    width: 100%;
+    background-color: rgb(44,60,85);
+    color: rgb(248,255,255);
+    font-size: 40px;
+    padding: 20px 80px;
+    position:fixed;
+    top: -27px;
+    left: -1px;
+    z-index: 1;
+}
+h2.home {
+    position: fixed;
+    top: 30px;
+    left: 1350px;
+    z-index: 2;
+    color: white;
+}
+p {
+    height: 31%;
+    width: 34%;
+    line-height: 2.8em;
+    font-size: 19px;
+    padding: 20px;
+    overflow:auto;
+    border-style: solid;
+    border-color: rgb(203,204,208);
+    border-radius: 10px;
+}
+div.a {
+    height: 400px;
+    width: 660px;
+    border-style: solid;
+    border-color: rgb(243,243,243);
+    background-color: rgb(243,243,243);
+}
+div.aa {
+    position: absolute;
+    left: 20px;
+    top:220px;
+}
+div.a h2{
+    position: absolute;
+    left:570px;
+    top: 160px;
+}
+div.a p{
+    position:absolute;
+    left:255px;
+    top: 220px;
+    width: 350px;
+    background-color: white;
+}
+div.b {
+    height: 400px;
+    width:700px;
+    position: absolute;
+    left: 780px;
+    top: 245px;
+    border-style: solid;
+    border-color: rgb(44,60,85);
+    background-color: rgb(44,60,85);
+}
+div.bb {
+    position: absolute;
+    left: 20px;
+    top:30px;
+}
+div.b h2{
+    position: absolute;
+    left:600px;
+    top: 50px;
+    color: white;
+}
+div.b p{
+    position:absolute;
+    left:260px;
+    top: 100px;
+    width: 370px;
+    height: 215px;
+    background-color: white;
+}
+div.c {
+    height: 450px;
+    width:800px;
+    position: absolute;
+    top: 680px;
+    border-style: solid;
+    border-color: rgb(44,60,85);
+    background-color: rgb(44,60,85);
+}
+div.cc {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+div.c h2{
+    position: absolute;
+    left:700px;
+    top: 40px;
+    color: white
+}
+div.c p{
+    position:absolute;
+    left:240px;
+    top: 120px;
+    width: 500px;
+    height: auto;
+    background-color: white;
+}
+div.d {
+    height: 450px;
+    width:640px;
+    position: absolute;
+    left: 845px;
+    top: 800px;
+    border-style: solid;
+    border-color: rgb(243,243,243);
+    background-color: rgb(243,243,243);
+    
+}
+div.dd {
+    position: absolute;
+    left: 20px;
+    top:120px;
+}
+div.d h2{
+    position: absolute;
+    left:530px;
+    top: 100px;
+}
+div.d p{
+    position:absolute;
+    left:250px;
+    top: 160px;
+    width: 310px;
+    height: auto;
+    background-color: white;
+}
+div.e {
+    height: 480px;
+    width:630px;
+    position: absolute;
+    top: 1200px;
+    border-style: solid;
+    border-color: rgb(243,243,243);
+    background-color: rgb(243,243,243);
+    
+}
+div.ee {
+    position: absolute;
+    left: 20px;
+    top:60px;
+}
+div.e h2{
+    position: absolute;
+    left:530px;
+    top: 100px;
+}
+div.e p{
+    position:absolute;
+    left:250px;
+    top: 160px;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+div.f {
+    height: 480px;
+    width:840px;
+    position: absolute;
+    top: 1350px;
+    left: 665px;
+    border-style: solid;
+    border-color: rgb(44,60,85);
+    background-color: rgb(44,60,85);
+}
+div.ff {
+    position: absolute;
+    left: 20px;
+    top:80px;
+}
+div.f h2{
+    position: absolute;
+    left:750px;
+    top: 60px;
+    color: white;
+}
+div.f p{
+    position:absolute;
+    left:270px;
+    top: 160px;
+    width: 515px;
+    height: auto;
+    background-color: white;
+}
+a:link {
+    color:rgb(112,146,190);
+    text-decoration: none;
+}
+a:visited {
+    color:rgb(112,146,190);
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(44,60,85);
+}
+a:active {
+    color: darkcyan;
+}
